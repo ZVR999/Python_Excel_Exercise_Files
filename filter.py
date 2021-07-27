@@ -8,7 +8,7 @@ df.columns = ['First','Last','Address','City','State','Area Code','Income']
 
 # print(df.loc[df['First'] == 'Jack'])
 
-# print(df.loc[df['Income'] > 20000])
+print(df.loc[df['Income'] > 20000])
 
 # print(df['State'][1:3])
 
