@@ -6,7 +6,7 @@ Created on Fri Jul 30 09:16:33 2021
 """
 
 import openpyxl
-from openpyxl.chart import PieChart, Reference, Series, PieChart3D
+from openpyxl.chart import PieChart, Reference
 
 wb = openpyxl.Workbook()
 ws = wb.active
