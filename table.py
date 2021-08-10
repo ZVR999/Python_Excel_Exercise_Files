@@ -22,3 +22,9 @@ tab.tableStyleInfo = style
 ws.add_table(tab)
 #Save the workbook
 wb.save('table.xlsx')
+
+img = Image('madecraft.jpg')
+img.height = img.height * .50
+img.width = img.width * .50
+ws.add_image(img, 'L1')
+wb.save('image.xlsx')
